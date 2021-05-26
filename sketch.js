@@ -14,7 +14,7 @@ var gameState = "onSling";
 var confsolver="bird1";
 var flag=0;
 function preload() {
-    getBcg();
+    backgroundImg = loadImage("sprites/bg.png");
 }
 
 function setup(){
